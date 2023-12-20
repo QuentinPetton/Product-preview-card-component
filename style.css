@@ -1,26 +1,23 @@
 body {
-    font-family: Montserrat;
-    font-size: 14px;
     background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contenu{
+.container{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    width: 60%;
-    margin: auto;
-    display: flex; 
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
 }
 
 h1{
-font-weight: lighter;
-padding: 20px;
-color: hsl(228, 12%, 48%);
-font-size: 1.5em;
-}
-
-h2{
     font-family: Fraunces;
     padding: 20px;
     color: hsl(212, 21%, 14%);
@@ -28,27 +25,20 @@ h2{
 }
 
 .image-product{
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 p{
     padding: 20px;
     color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: Montserrat;
 }
 
-.new-price{
+.product-price{
     font-size: 2.5em;
     padding: 20px;
     color: hsl(158, 36%, 37%);
     font-family: Fraunces;
-}
-
-.old-price{
-    font-size: 1em ;
-    text-decoration: line-through;
-    color: hsl(228, 12%, 48%);
-}
-
-.cta{
-    padding: 20px;
 }
